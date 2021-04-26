@@ -1,0 +1,22 @@
+﻿  COMMAND RPG.cpp
+e:\visual studio projects\command rpg\command rpg\command rpg.cpp(93): error C2676: Binární <<: std::basic_istream<char,std::char_traits<char>> nedefinuje tento operátor nebo převod na typ přijatelný pro předdefinovaný operátor.
+e:\visual studio projects\command rpg\command rpg\command rpg.cpp(95): error C2678: Binární ==: Nenašel se žádný operátor, který by zpracovával levý operand typu std::string (nebo neexistuje žádný přijatelný převod).
+  e:\visual studio 2017\vc\tools\msvc\14.16.27023\include\system_error(284): note: mohlo by být: bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept
+  e:\visual studio 2017\vc\tools\msvc\14.16.27023\include\system_error(278): note: nebo       bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept
+  e:\visual studio 2017\vc\tools\msvc\14.16.27023\include\system_error(272): note: nebo       bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept
+  e:\visual studio 2017\vc\tools\msvc\14.16.27023\include\system_error(266): note: nebo       bool std::operator ==(const std::error_code &,const std::error_code &) noexcept
+  e:\visual studio 2017\vc\tools\msvc\14.16.27023\include\exception(331): note: nebo       bool std::operator ==(const std::exception_ptr &,std::nullptr_t) noexcept
+  e:\visual studio 2017\vc\tools\msvc\14.16.27023\include\exception(326): note: nebo       bool std::operator ==(std::nullptr_t,const std::exception_ptr &) noexcept
+  e:\visual studio 2017\vc\tools\msvc\14.16.27023\include\exception(321): note: nebo       bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) noexcept
+  e:\visual studio projects\command rpg\command rpg\command rpg.cpp(95): note: při pokusu o shodu se seznamem argumentů (std::string, int)
+e:\visual studio projects\command rpg\command rpg\command rpg.cpp(100): error C2678: Binární ==: Nenašel se žádný operátor, který by zpracovával levý operand typu std::string (nebo neexistuje žádný přijatelný převod).
+  e:\visual studio 2017\vc\tools\msvc\14.16.27023\include\system_error(284): note: mohlo by být: bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept
+  e:\visual studio 2017\vc\tools\msvc\14.16.27023\include\system_error(278): note: nebo       bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept
+  e:\visual studio 2017\vc\tools\msvc\14.16.27023\include\system_error(272): note: nebo       bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept
+  e:\visual studio 2017\vc\tools\msvc\14.16.27023\include\system_error(266): note: nebo       bool std::operator ==(const std::error_code &,const std::error_code &) noexcept
+  e:\visual studio 2017\vc\tools\msvc\14.16.27023\include\exception(331): note: nebo       bool std::operator ==(const std::exception_ptr &,std::nullptr_t) noexcept
+  e:\visual studio 2017\vc\tools\msvc\14.16.27023\include\exception(326): note: nebo       bool std::operator ==(std::nullptr_t,const std::exception_ptr &) noexcept
+  e:\visual studio 2017\vc\tools\msvc\14.16.27023\include\exception(321): note: nebo       bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) noexcept
+  e:\visual studio projects\command rpg\command rpg\command rpg.cpp(100): note: při pokusu o shodu se seznamem argumentů (std::string, int)
+e:\visual studio projects\command rpg\command rpg\command rpg.cpp(104): error C2100: neplatná indirekce
+e:\visual studio projects\command rpg\command rpg\command rpg.cpp(110): error C2100: neplatná indirekce
